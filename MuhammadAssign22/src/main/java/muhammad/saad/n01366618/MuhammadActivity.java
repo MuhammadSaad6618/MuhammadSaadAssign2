@@ -10,6 +10,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import com.google.android.material.snackbar.Snackbar;
 
 
 public class MuhammadActivity extends AppCompatActivity {
@@ -39,10 +42,17 @@ public class MuhammadActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel:6476420090"));
                 startActivity(intent);
+
+            case R.id.Muhammad:
+                View myLayout = findViewById(R.id.MuhammadLayout);
+
+                Snackbar.make(myLayout,"Our Pizza Is So Good!",Snackbar.LENGTH_LONG).show();
+
+
             default:
                 return super.onOptionsItemSelected(item);
 
         }
     }
 
-}
+    }

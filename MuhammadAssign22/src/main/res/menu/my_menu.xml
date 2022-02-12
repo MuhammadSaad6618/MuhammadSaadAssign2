@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Muhammadhelp"
+        android:title="Help" />
+    <item
+        android:id="@+id/Muhammadpizza"
+        android:title="Pizza"
+        app:showAsAction="always"
+        android:icon="@drawable/mypizzalover"/>
+    <item
+        android:id="@+id/Muhammad"
+        android:title="Muhammad" />
+</menu>

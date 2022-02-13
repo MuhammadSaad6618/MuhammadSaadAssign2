@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MuhammadLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OrderActivity">
@@ -10,18 +11,18 @@
         android:id="@+id/Muhammadtv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="153dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="186dp"
-        android:layout_height="367dp"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="161dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -69,10 +70,10 @@
 
     <RadioGroup
         android:id="@+id/radioGroup3"
-        android:layout_width="186dp"
-        android:layout_height="367dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="296dp"
+        android:layout_width="111dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="332dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -99,12 +100,95 @@
 
         <RadioButton
             android:id="@+id/MuhammadRB11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
             android:text="Large"
             tools:layout_conversion_absoluteHeight="48dp"
-            tools:layout_conversion_absoluteWidth="102dp" />
-
+            tools:layout_conversion_absoluteWidth="102dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="496dp" />
 
     </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/MuhammadCb1"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="136dp"
+        android:text="Onions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/MuhammadCb2"
+        android:layout_width="135dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="72dp"
+        android:text="pineapple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/MuhammadCb3"
+        android:layout_width="139dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="208dp"
+        android:text="Tomato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/MuhammadCb4"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="268dp"
+        android:text="Sausage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="Chose the type of pizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="327dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="292dp"
+        android:text="Chose the size of pizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="32dp"
+        android:text="Choose topings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Muhammadbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="376dp"
+        android:text="Checkout"
+        android:onClick="validate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

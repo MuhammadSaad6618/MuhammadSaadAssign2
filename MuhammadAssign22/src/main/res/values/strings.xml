@@ -6,4 +6,5 @@
         <item>Pizza Depot</item>
         <item>shit pizza</item>
     </array>
+    <string name="action">checkout</string>
 </resources>

@@ -1,20 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Muhammad Saad, N01366618, RNA    -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/MuhammadLayout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MuhammadLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MuhammadActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="186dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="169dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/MuhammadRB1"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:onClick="myToastMsg2"
+            android:text="Dominos"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <RadioButton
+            android:id="@+id/MuhammadRB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myToastMsg3"
+            android:text="Pizza Depot"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="106dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <RadioButton
+            android:id="@+id/MuhammadRB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myToastMsg4"
+            android:text="Halal Pizza"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="101dp"
+            tools:layout_editor_absoluteX="-28dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <RadioButton
+            android:id="@+id/MuhammadRB4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myToastMsg1"
+            android:text="Pizza Pizza"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="102dp" />
+
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="101dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dompizza" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="289dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizzapizzalogo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="289dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizzadepot" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="288dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizzabox" />
+
+    <Button
+        android:id="@+id/Muhammadbutton1"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="35dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="nextButtonClicked" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

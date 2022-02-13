@@ -6,10 +6,11 @@
         android:title="Help" />
     <item
         android:id="@+id/Muhammadpizza"
+        android:icon="@drawable/mypizzalover"
         android:title="Pizza"
-        app:showAsAction="always"
-        android:icon="@drawable/mypizzalover"/>
+        app:showAsAction="always"/>
     <item
         android:id="@+id/Muhammad"
-        android:title="Muhammad" />
+        android:title="Muhammad"
+        app:showAsAction="ifRoom"/>
 </menu>

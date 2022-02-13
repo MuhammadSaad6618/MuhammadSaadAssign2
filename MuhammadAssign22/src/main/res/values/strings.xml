@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MuhammadAssign2</string>
+    <string name="app_name">Order Pizza</string>
+    <array name="pizzaStores">
+        <item>Pizza Pizza</item>
+        <item>Dominos</item>
+        <item>Pizza Depot</item>
+        <item>shit pizza</item>
+    </array>
 </resources>

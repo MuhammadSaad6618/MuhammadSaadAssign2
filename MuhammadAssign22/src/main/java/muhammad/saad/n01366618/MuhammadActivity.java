@@ -24,6 +24,10 @@ import com.google.android.material.snackbar.Snackbar;
 
 
 public class MuhammadActivity extends AppCompatActivity {
+
+
+    public static final String extxt = "Store:";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,7 +96,7 @@ public class MuhammadActivity extends AppCompatActivity {
 
     public void myToastMsg4(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "You have selected the pizza box";
+        CharSequence text = "You have selected The pizza box";
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -106,25 +110,26 @@ public class MuhammadActivity extends AppCompatActivity {
         RadioButton bt4 = findViewById(R.id.MuhammadRB4);
 
         if(bt1.isChecked()) {
-           launch();
+           launch("you selected Dominos");
        }
 
        if(bt2.isChecked()){
-           launch();
+           launch("you selected Pizza Depot");
        }
 
         if(bt3.isChecked()){
-            launch();
+            launch("you selected The pizza box");
         }
 
         if(bt4.isChecked()){
-            launch();
+            launch("you selected Pizza Pizza");
         }
     }
 
 
-    void launch() {
+    void launch(String s) {
         Intent act = new Intent(this, OrderActivity.class);
+        act.putExtra(extxt, s);
         startActivity(act);
     }
 

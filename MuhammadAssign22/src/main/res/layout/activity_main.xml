@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="myToastMsg4"
-            android:text="Halal Pizza"
+            android:text="The Pizza Box"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="101dp"
             tools:layout_editor_absoluteX="-28dp"

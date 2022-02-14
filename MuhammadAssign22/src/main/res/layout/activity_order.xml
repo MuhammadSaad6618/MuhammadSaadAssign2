@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/Muhammadtv1"
+        android:textColor="@color/blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -31,6 +32,7 @@
             android:id="@+id/MuhammadRB5"
             android:layout_width="105dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/blue"
             android:text="Cheese Pizza"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="88dp"
@@ -42,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Vegetalble Pizza"
+            android:textColor="@color/blue"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="106dp"
             tools:layout_editor_absoluteX="0dp"
@@ -52,6 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Meat Lover"
+            android:textColor="@color/blue"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="101dp"
             tools:layout_editor_absoluteX="-28dp"
@@ -61,6 +65,7 @@
             android:id="@+id/MuhammadRB8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/blue"
             android:text="Cheeseless Pizza"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="102dp" />
@@ -83,6 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Small"
+            android:textColor="@color/blue"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="106dp"
             tools:layout_editor_absoluteX="0dp"
@@ -93,6 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medium"
+            android:textColor="@color/blue"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="101dp"
             tools:layout_editor_absoluteX="-28dp"
@@ -103,6 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Large"
+            android:textColor="@color/blue"
             tools:layout_conversion_absoluteHeight="48dp"
             tools:layout_conversion_absoluteWidth="102dp"
             tools:layout_editor_absoluteX="16dp"
@@ -117,6 +125,7 @@
         android:layout_marginStart="232dp"
         android:layout_marginTop="136dp"
         android:text="Onions"
+        android:textColor="@color/blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -124,6 +133,7 @@
         android:id="@+id/MuhammadCb2"
         android:layout_width="135dp"
         android:layout_height="66dp"
+        android:textColor="@color/blue"
         android:layout_marginStart="232dp"
         android:layout_marginTop="72dp"
         android:text="pineapple"
@@ -135,6 +145,7 @@
         android:layout_width="139dp"
         android:layout_height="63dp"
         android:layout_marginStart="232dp"
+        android:textColor="@color/blue"
         android:layout_marginTop="208dp"
         android:text="Tomato"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,6 +153,7 @@
 
     <CheckBox
         android:id="@+id/MuhammadCb4"
+        android:textColor="@color/blue"
         android:layout_width="145dp"
         android:layout_height="58dp"
         android:layout_marginStart="232dp"
@@ -153,6 +165,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
+        android:textColor="@color/blue"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="44dp"
@@ -162,6 +175,7 @@
 
     <TextView
         android:id="@+id/textView3"
+        android:textColor="@color/blue"
         android:layout_width="327dp"
         android:layout_height="22dp"
         android:layout_marginStart="16dp"
@@ -172,6 +186,7 @@
 
     <TextView
         android:id="@+id/textView4"
+        android:textColor="@color/blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="236dp"
@@ -187,6 +202,7 @@
         android:layout_marginStart="259dp"
         android:layout_marginTop="376dp"
         android:text="Checkout"
+        android:textColor="@color/blue"
         android:onClick="validate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

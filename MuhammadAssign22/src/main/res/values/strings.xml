@@ -26,4 +26,7 @@
     <string name="alertD">\"Do you want to stay on app or exit \"</string>
     <string name="alertD2">Stay</string>
     <string name="AlerDP">Exit</string>
+    <string name="hintname">Name</string>
+    <string name="credithint">credit card number</string>
+    <string name="checkout">Checkout</string>
 </resources>

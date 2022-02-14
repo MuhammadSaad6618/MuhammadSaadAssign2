@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Order Pizza</string>
+    <array name="pizzaStores">
+        <item>Pizza Pizza</item>
+        <item>Dominos</item>
+        <item>Pizza Depot</item>
+        <item>shit pizza</item>
+    </array>
+    <string name="action">vérifier</string>
+    <string name="dominos">Dominos</string>
+    <string name="pizza_depot">Pizza Dépôt</string>
+    <string name="the_pizza_box">The Pizza Box</string>
+    <string name="pizza_pizza">Pizza Dépôt</string>
+    <string name="next">Suivant</string>
+    <string name="link">https://www.blazepizza.com/contact-us</string>
+    <string name="phoneNumber">tel:6476420090</string>
+    <string name="snBar1">Notre pizza est si bonne !</string>
+    <string name="Toast1">Vous avez sélectionné Pizza Pizza</string>
+    <string name="Toast2">Vous avez sélectionné Dominos</string>
+    <string name="Toast3">Vous avez sélectionné Pizza Dépôt</string>
+    <string name="Toast4">Vous avez sélectionné La boîte à pizza</string>
+    <string name="opt1">vous avez sélectionné Dominos</string>
+    <string name="opt2">vous avez sélectionné Pizza Dépot</string>
+    <string name="opt3">vous avez sélectionné La boîte à pizza</string>
+    <string name="opt4">vous avez sélectionné Pizza Pizza</string>
+    <string name="alertD">\"Voulez-vous rester sur l\'application ou quitter \"</string>
+    <string name="alertD2">Rester</string>
+    <string name="AlerDP">Sortir</string>
+    <string name="hintname">Nom</string>
+    <string name="credithint">Numéro de Carte de Crédit</string>
+    <string name="checkout">Vérifier</string>
+</resources>

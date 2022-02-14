@@ -11,7 +11,7 @@
         android:layout_width="413dp"
         android:layout_height="76dp"
         android:layout_marginTop="86dp"
-        android:hint="Name"
+        android:hint="@string/hintname"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,9 +21,21 @@
         android:layout_width="422dp"
         android:layout_height="86dp"
         android:layout_marginTop="232dp"
-        android:hint="credit card number"
+        android:hint="@string/credithint"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="108dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="445dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

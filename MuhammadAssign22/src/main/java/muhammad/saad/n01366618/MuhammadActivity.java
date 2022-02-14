@@ -46,19 +46,19 @@ public class MuhammadActivity extends AppCompatActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case id.Muhammadhelp:
-                Intent web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.blazepizza.com/contact-us"));
+                Intent web = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(string.link)));
                 startActivity(web);
                 return true;
 
             case id.Muhammadpizza:
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:6476420090"));
+                intent.setData(Uri.parse(getString(string.phoneNumber)));
                 startActivity(intent);
 
             case id.Muhammad:
                 View myLayout = findViewById(id.MuhammadLayout);
 
-                Snackbar.make(myLayout, "Our Pizza Is So Good!", Snackbar.LENGTH_LONG).show();
+                Snackbar.make(myLayout, string.snBar1, Snackbar.LENGTH_LONG).show();
 
 
             default:
@@ -69,7 +69,7 @@ public class MuhammadActivity extends AppCompatActivity {
 
     public void myToastMsg1(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "You have selected Pizza Pizza";
+        CharSequence text = getString(string.Toast1);
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -78,7 +78,7 @@ public class MuhammadActivity extends AppCompatActivity {
 
     public void myToastMsg2(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "You have selected Dominos";
+        CharSequence text = getString(string.Toast2);
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -87,7 +87,7 @@ public class MuhammadActivity extends AppCompatActivity {
 
     public void myToastMsg3(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "You have selected Pizza Depot";
+        CharSequence text = getString(string.Toast3);
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -96,7 +96,7 @@ public class MuhammadActivity extends AppCompatActivity {
 
     public void myToastMsg4(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "You have selected The pizza box";
+        CharSequence text = getString(string.Toast4);
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -110,19 +110,19 @@ public class MuhammadActivity extends AppCompatActivity {
         RadioButton bt4 = findViewById(R.id.MuhammadRB4);
 
         if(bt1.isChecked()) {
-           launch("you selected Dominos");
+           launch(getString(string.opt1));
        }
 
        if(bt2.isChecked()){
-           launch("you selected Pizza Depot");
+           launch(getString(string.opt2));
        }
 
         if(bt3.isChecked()){
-            launch("you selected The pizza box");
+            launch(getString(string.opt3));
         }
 
         if(bt4.isChecked()){
-            launch("you selected Pizza Pizza");
+            launch(getString(string.opt4));
         }
     }
 
@@ -135,13 +135,13 @@ public class MuhammadActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder((this)).setMessage("Do you want to stay on app or exit ")
-                .setCancelable(false).setPositiveButton("Exit", new DialogInterface.OnClickListener() {
+        new AlertDialog.Builder((this)).setMessage(string.alertD)
+                .setCancelable(false).setPositiveButton(string.AlerDP, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 finish();
             }
-        }).setNegativeButton("Stay",null)
+        }).setNegativeButton(string.alertD2,null)
                 .show();
     }
 

@@ -7,4 +7,23 @@
         <item>shit pizza</item>
     </array>
     <string name="action">checkout</string>
+    <string name="dominos">Dominos</string>
+    <string name="pizza_depot">Pizza Depot</string>
+    <string name="the_pizza_box">The Pizza Box</string>
+    <string name="pizza_pizza">Pizza Pizza</string>
+    <string name="next">Next</string>
+    <string name="link">https://www.blazepizza.com/contact-us</string>
+    <string name="phoneNumber">tel:6476420090</string>
+    <string name="snBar1">Our Pizza Is So Good!</string>
+    <string name="Toast1">You have selected Pizza Pizza</string>
+    <string name="Toast2">You have selected Dominos</string>
+    <string name="Toast3">You have selected Pizza Depot</string>
+    <string name="Toast4">You have selected The pizza box</string>
+    <string name="opt1">you selected Dominos</string>
+    <string name="opt2">you selected Pizza Depot</string>
+    <string name="opt3">you selected The pizza box</string>
+    <string name="opt4">you selected Pizza Pizza</string>
+    <string name="alertD">\"Do you want to stay on app or exit \"</string>
+    <string name="alertD2">Stay</string>
+    <string name="AlerDP">Exit</string>
 </resources>
